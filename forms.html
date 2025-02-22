@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style1.css">
+</head >
+  
+  <body>
+<div class="header">
+    <fieldset>
+  <legend>Personal Details</legend>
+  <table>
+    <tr>
+      <td>
+        <label for="">Name : </label>
+      </td>
+      <td>
+        <input type="text" required name="firstname">
+        <span>Enter your name</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="">Surname:</label>
+      </td>
+      <td>
+        <input type="text" required>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="">Mobile Number:</label>
+      </td>
+      <td><input type="tel" required name="phone">
+      <span>Enter your phone number</span></td>
+      
+    </tr>
+    <tr>
+      <td>
+        <label for="">Email:</label>
+      </td>
+      <td><input type="email" required></td>
+      
+    </tr>
+    <tr>
+      <td>
+        <label for="">Password:</label>
+      </td>
+      <td><input type="password" required></td>
+      
+    </tr>
+    <tr>
+      <td>
+        <label for="">Confirm password :</label>
+      </td>
+      <td><input type="password" required></td>
+      
+    </tr>
+    <tr>
+      <td> <label for="">DOB:</label></td>
+   
+<td><input type="date" required></td>
+    </tr>
+    <tr>
+      <td> <label for="">Gender:</label></td>
+   
+<td><input type="radio" required name="Gender">male
+<input type="radio" required name="Gender">female
+</td>
+    </tr>
+    <tr>
+      <td> <label for="">Select Country</label></td>
+      <td><select name="" id="">
+       
+        <option value="">Nepal</option>
+        <option value="">India</option>
+        <option value="">Usa</option>
+      </select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="">Upload file:</label>
+      </td>
+      <td>
+        <input type="file">
+      </td>
+    </tr>
+    <tr>
+      <td> <input type="reset"></td>
+     
+    </tr>
+
+  </table>
+
+</fieldset>
+</div>
+<div>
+<fieldset>
+  <legend>Course Details</legend>
+  <label for="">Select Course</label><br>
+     <select name="" id="">
+       
+        <option value="">JAVA</option>
+        <option value="">Frontend</option>
+        <option value="">AI</option>
+      </select>
+      <label for="">Delivery Mode:</label>
+      <input type="checkbox">online
+      <input type="checkbox">offline<br>
+      <label for="">Comments</label><br>
+      <textarea name="comments" id="" rows="5" cols="30"></textarea>
+</fieldset>
+<input type="submit">
+</div>
+</body>
+</html>
